@@ -10,7 +10,16 @@ body {
 }
 
 h1 {
+    width: 200px;
+    background-color: rgba(0, 255, 255, 0.096);
     text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+h1:hover {
+    text-decoration: underline;
 }
 
 h2 {
@@ -21,4 +30,6 @@ h2 {
 main {
     background-color: rgb(24, 24, 24);
     padding: 25px;
+    border-radius: 20px;
 }
+
